@@ -285,7 +285,7 @@
               "lun": 0,
               "name": "[format('{0}-DataDisk1', parameters('computerName'))]",
               "createOption": "Empty",
-              "diskSizeGB": 512,
+              "diskSizeGB": 5,
               "caching": "ReadOnly",
               "deleteOption": "Delete",
               "managedDisk": {
