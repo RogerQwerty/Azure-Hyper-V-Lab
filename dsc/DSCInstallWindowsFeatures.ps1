@@ -28,12 +28,14 @@ Configuration InstallWindowsFeatures {
             Ensure = "Present"
 		    IncludeAllSubFeature = $true
         }
-        WindowsFeature DHCP {
+<#
+	WindowsFeature DHCP {
             Name   = "DHCP"
             Ensure = "Present"
 		    IncludeAllSubFeature = $true
         }
-        WindowsFeature RSAT-DHCP {
+#>
+	WindowsFeature RSAT-DHCP {
             Name = "RSAT-DHCP"
             Ensure = "Present"
             IncludeAllSubFeature = $true
