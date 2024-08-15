@@ -228,7 +228,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2021-03-01' = {
           lun: 0
           name: '${computerName}-DataDisk1'
           createOption: 'Empty'
-          diskSizeGB: 512
+          diskSizeGB: 5
           caching: 'ReadOnly'
           deleteOption: 'Delete'
           managedDisk: {
